@@ -1,0 +1,26 @@
+CriarBarreiras -->
+contaJogadasHeroi = 0
+
+DistanciaHeroi(){
+	if ((getHeroiPosicao - getLadraoPosicao)>=3)
+		{
+		return true
+		}
+	else
+		return false
+}
+
+	while contaJogadasHeroi >= 3
+
+		if (DistanciaHeroi)
+		  	{
+		  		barreira.add(getHeroiPosicao-1)
+		  		random.seed((getHeroiPosicao -1), (getLadraoPosicao-1))
+		  	}
+		  	else{
+			  	MesmoLugar()
+		  	}
+
+  	contaJogadasHeroi = 0 
+
+}
